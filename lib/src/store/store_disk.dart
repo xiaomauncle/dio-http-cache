@@ -4,7 +4,7 @@ import 'package:dio_http_cache/src/core/config.dart';
 import 'package:dio_http_cache/src/core/obj.dart';
 import 'package:dio_http_cache/src/store/store_impl.dart';
 import 'package:path/path.dart';
-import 'package:sqflite/sqflite.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 class DiskCacheStore extends ICacheStore {
   final String? _databasePath;

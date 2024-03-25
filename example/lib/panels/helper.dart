@@ -61,7 +61,7 @@ class PanelHelper {
                       style: Theme.of(context)
                           .textTheme
                           .subtitle2!
-                          .copyWith(color: Theme.of(context).accentColor)),
+                          .copyWith(color: Theme.of(context).primaryColor)),
                   Text(DioHelper.baseUrl,
                       style: Theme.of(context)
                           .textTheme
@@ -114,7 +114,7 @@ class PanelHelper {
           style: Theme.of(context)
               .textTheme
               .subtitle2!
-              .copyWith(color: Theme.of(context).accentColor)),
+              .copyWith(color: Theme.of(context).primaryColor)),
       Row(children: <Widget>[
         Expanded(child: TextField(controller: controller)),
         for (var w in _buildRequestButton(context, request)) w,
